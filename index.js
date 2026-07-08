@@ -16,6 +16,10 @@ app.get('/blog', (req, res) => {
   res.send('Este es el blog');
 });
 
+app.get('/nosotros', (req, res) => {
+  res.send('Este es el about us');
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
